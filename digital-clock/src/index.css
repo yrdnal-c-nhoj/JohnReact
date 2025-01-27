@@ -1,0 +1,28 @@
+body {
+  background-image: url(assets/fire.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center
+}
+
+.clock-container {
+  backdrop-filter: blur(31px);
+  min-height: 3vh;
+  width: 80vw;
+  padding: 10px 0;
+}
+
+.clock {
+  color: yellow;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 13px 23px 19px rgb(193, 8, 8);
+}
